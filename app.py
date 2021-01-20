@@ -1,13 +1,10 @@
 from flask import Flask, request, abort
-from config import DevelopmentConfig as config
-import os
+from config import Config as config
+from messages.flex import flex
 import sys
 import tempfile
-
-app = Flask(__name__)
-
-#specify db config
-app.config.from_object(config())
+import json
+import os
 
 #line api
 from linebot import (
@@ -33,9 +30,16 @@ from linebot.models import (
     SeparatorComponent, QuickReply, QuickReplyButton,
     ImageSendMessage)
 
-# get channel_secret and channel_access_token from your environment variable
-# channel_secret = os.getenv('LINE_CHANNEL_SECRET', None)
-# channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
+# start web server
+app = Flask(__name__)
+
+# specify db config
+app.config.from_object(config())
+
+# specify path
+project_folder = os.path.dirname(os.path.abspath(__file__))
+
+#get line channel config
 channel_secret = config.LINE_CHANNEL_SECRET
 channel_access_token = config.LINE_CHANNEL_ACCESS_TOKEN
 
@@ -87,11 +91,19 @@ def handle_text_message(event):
             line_bot_api.reply_message(
                 event.reply_token,
                 TextSendMessage(text="Bot can't use profile API without user ID"))
+    elif text == 'Flex':
+        flexObj = flex("projects")
+        message = FlexSendMessage(alt_text="projects", contents=flexObj.readFile())
+        print(message)
+        line_bot_api.reply_message(
+            event.reply_token,
+            message
+        )
     else:
         line_bot_api.reply_message(
             event.reply_token, TextSendMessage(text=event.message.text))
     
-    
+
 
 if __name__ == '__main__':
     app.run(host=config.HOST, port=config.PORT, debug=True)

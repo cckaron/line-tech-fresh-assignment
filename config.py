@@ -1,27 +1,23 @@
-class Config():
+import os
+from dotenv import load_dotenv
+
+# load .env config
+project_folder = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(project_folder, '.dev.env'))
+
+class Config:
     #Base flask
-    DEBUG = True
-    DEVELOPMENT = True
-    HOST = '0.0.0.0'
-    PORT = '8000'
+    DEBUG = os.getenv('DEBUG')
+    HOST = os.getenv('HOST')
+    PORT = os.getenv('PORT')
     
     #DB
-    DB_SERVER = 'YOUR_DB_SERVER'
-    DB_PORT = 'YOUR_DB_PORT'
-    DB_NAME = 'YOUR_DB_NAME'
-    DB_USER = 'YOUR_DB_ADMIN'
-    DB_PASSWORD = 'YOUR_DB_PASSWORD'
+    DB_SERVER = os.getenv('DB_SERVER')
+    DB_PORT = os.getenv('DB_PORT')
+    DB_NAME = os.getenv('DB_NAME')
+    DB_USER = os.getenv('DB_USER')
+    DB_PASSWORD = os.getenv('DB_PASSWORD')
 
     #line bot
-    LINE_CHANNEL_SECRET = '5d909605f87b0a9898ed4a76006b0065'
-    LINE_CHANNEL_ACCESS_TOKEN = 'AsLnV8YVl+2+/BTLaHQeAda3jGsaW+0TE5rZwClVwe4OLFL1nuImfSXEfCcJwOQzCEN4HgEAtvetidV0eCdJx5SKzklgUToIDCdGmp/RlHfXeHdJowfMGspGnr+51fth93OrGSMypmKrZ8S9JylZQQdB04t89/1O/w1cDnyilFU='
-
-class ProductionConfig(Config):
-    def __init__(self):
-        self.DEBUG = False
-        self.DB_SERVER = ''
-    
-class DevelopmentConfig(Config):
-    def __init__(self):
-        self.DB_SERVER = 'localhost'
-        self.DEBUG = True
+    LINE_CHANNEL_SECRET = os.getenv('LINE_CHANNEL_SECRET')
+    LINE_CHANNEL_ACCESS_TOKEN = os.getenv('LINE_CHANNEL_ACCESS_TOKEN')
