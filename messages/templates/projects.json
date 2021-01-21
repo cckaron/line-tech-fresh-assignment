@@ -1,233 +1,114 @@
 {
-    "type": "carousel",
-    "contents": [
-        {
-            "type": "bubble",
-            "hero": {
-                "type": "image",
-                "url": "https://raw.githubusercontent.com/cckaron/presidential-hackathon/main/photos/%E8%88%87%E7%B8%BD%E7%B5%B1%E7%B0%A1%E5%A0%B1.png",
-                "size": "full",
-                "aspectRatio": "20:13",
-                "aspectMode": "cover",
-                "action": {
-                    "type": "uri",
-                    "uri": "http://linecorp.com/"
-                }
-            },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                    {
-                        "type": "text",
-                        "text": "總統盃黑客松",
-                        "weight": "bold",
-                        "size": "lg"
-                    },
-                    {
-                        "type": "text",
-                        "text": "Team Lead and Developer",
-                        "size": "sm",
-                        "color": "#999999",
-                        "margin": "md",
-                        "flex": 0
-                    },
-                    {
-                        "type": "box",
-                        "layout": "vertical",
-                        "margin": "lg",
-                        "spacing": "sm",
-                        "contents": [
-                            {
-                                "type": "box",
-                                "layout": "baseline",
-                                "spacing": "sm",
-                                "contents": [
-                                    {
-                                        "type": "text",
-                                        "text": "Award",
-                                        "color": "#aaaaaa",
-                                        "size": "sm",
-                                        "flex": 1
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "Won Top 10 Finalist of 274 teams, as the only student team",
-                                        "wrap": true,
-                                        "color": "#666666",
-                                        "size": "sm",
-                                        "flex": 5
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "box",
-                                "layout": "baseline",
-                                "spacing": "sm",
-                                "contents": [
-                                    {
-                                        "type": "text",
-                                        "text": "Period",
-                                        "color": "#aaaaaa",
-                                        "size": "sm",
-                                        "flex": 1
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "2020 Feb - 2020 Aug",
-                                        "wrap": true,
-                                        "color": "#666666",
-                                        "size": "sm",
-                                        "flex": 5
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "footer": {
-                "type": "box",
-                "layout": "vertical",
-                "spacing": "sm",
-                "contents": [
-                    {
-                        "type": "button",
-                        "style": "link",
-                        "height": "sm",
-                        "action": {
-                            "type": "uri",
-                            "label": "Our Team",
-                            "uri": "https://youtu.be/zSegCb1GsRE"
-                        }
-                    },
-                    {
-                        "type": "button",
-                        "style": "link",
-                        "height": "sm",
-                        "action": {
-                            "type": "uri",
-                            "label": "Presentation",
-                            "uri": "https://youtu.be/NtrVG0pT0J8?t=2715"
-                        }
-                    }
-                ],
-                "flex": 0
-            }
-        },
-        {
-            "type": "bubble",
-            "hero": {
-                "type": "image",
-                "url": "https://raw.githubusercontent.com/cckaron/presidential-hackathon/main/photos/%E8%88%87%E7%B8%BD%E7%B5%B1%E7%B0%A1%E5%A0%B1.png",
-                "size": "full",
-                "aspectRatio": "20:13",
-                "aspectMode": "cover",
-                "action": {
-                    "type": "uri",
-                    "uri": "http://linecorp.com/"
-                }
-            },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                    {
-                        "type": "text",
-                        "text": "總統盃黑客松",
-                        "weight": "bold",
-                        "size": "lg"
-                    },
-                    {
-                        "type": "text",
-                        "text": "Team Lead and Developer",
-                        "size": "sm",
-                        "color": "#999999",
-                        "margin": "md",
-                        "flex": 0
-                    },
-                    {
-                        "type": "box",
-                        "layout": "vertical",
-                        "margin": "lg",
-                        "spacing": "sm",
-                        "contents": [
-                            {
-                                "type": "box",
-                                "layout": "baseline",
-                                "spacing": "sm",
-                                "contents": [
-                                    {
-                                        "type": "text",
-                                        "text": "Award",
-                                        "color": "#aaaaaa",
-                                        "size": "sm",
-                                        "flex": 1
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "Won Top 10 Finalist of 274 teams, as the only student team",
-                                        "wrap": true,
-                                        "color": "#666666",
-                                        "size": "sm",
-                                        "flex": 5
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "box",
-                                "layout": "baseline",
-                                "spacing": "sm",
-                                "contents": [
-                                    {
-                                        "type": "text",
-                                        "text": "Period",
-                                        "color": "#aaaaaa",
-                                        "size": "sm",
-                                        "flex": 1
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "2020 Feb - 2020 Aug",
-                                        "wrap": true,
-                                        "color": "#666666",
-                                        "size": "sm",
-                                        "flex": 5
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "footer": {
-                "type": "box",
-                "layout": "vertical",
-                "spacing": "sm",
-                "contents": [
-                    {
-                        "type": "button",
-                        "style": "link",
-                        "height": "sm",
-                        "action": {
-                            "type": "uri",
-                            "label": "Our Team",
-                            "uri": "https://youtu.be/zSegCb1GsRE"
-                        }
-                    },
-                    {
-                        "type": "button",
-                        "style": "link",
-                        "height": "sm",
-                        "action": {
-                            "type": "uri",
-                            "label": "Presentation",
-                            "uri": "https://youtu.be/NtrVG0pT0J8?t=2715"
-                        }
-                    }
-                ],
-                "flex": 0
-            }
+    "type": "bubble",
+    "hero": {
+        "type": "image",
+        "url": "https://raw.githubusercontent.com/cckaron/presidential-hackathon/main/photos/%E8%88%87%E7%B8%BD%E7%B5%B1%E7%B0%A1%E5%A0%B1.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
         }
-    ]
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "總統盃黑客松",
+                "weight": "bold",
+                "size": "lg"
+            },
+            {
+                "type": "text",
+                "text": "Team Lead and Developer",
+                "size": "sm",
+                "color": "#999999",
+                "margin": "md",
+                "flex": 0
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "margin": "lg",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "Award",
+                                "color": "#aaaaaa",
+                                "size": "sm",
+                                "flex": 1
+                            },
+                            {
+                                "type": "text",
+                                "text": "Won Top 10 Finalist of 274 teams, as the only student team",
+                                "wrap": true,
+                                "color": "#666666",
+                                "size": "sm",
+                                "flex": 5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "Period",
+                                "color": "#aaaaaa",
+                                "size": "sm",
+                                "flex": 1
+                            },
+                            {
+                                "type": "text",
+                                "text": "2020 Feb - 2020 Aug",
+                                "wrap": true,
+                                "color": "#666666",
+                                "size": "sm",
+                                "flex": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "uri",
+                    "label": "Our Team",
+                    "uri": "https://youtu.be/zSegCb1GsRE"
+                }
+            },
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "uri",
+                    "label": "Presentation",
+                    "uri": "https://youtu.be/NtrVG0pT0J8?t=2715"
+                }
+            }
+        ],
+        "flex": 0
+    }
 }

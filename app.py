@@ -1,6 +1,7 @@
 from flask import Flask, request, abort
 from config import Config as config
 from messages.flex import flex
+from helper import helper
 import sys
 import tempfile
 import json
@@ -52,6 +53,12 @@ if channel_secret is None or channel_access_token is None:
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
 
+#init helper
+helper = helper(line_bot_api)
+
+#Create rich menu at the first time
+# helper.flushAllRichMenuThenCreateOne()
+
 @app.route("/callback", methods=['POST'])
 def callback():
     # get X-Line-Signature header value
@@ -91,7 +98,7 @@ def handle_text_message(event):
             line_bot_api.reply_message(
                 event.reply_token,
                 TextSendMessage(text="Bot can't use profile API without user ID"))
-    elif text == 'Flex':
+    elif text == 'Leadership':
         flexObj = flex("projects")
         message = FlexSendMessage(alt_text="projects", contents=flexObj.readFile())
         print(message)
@@ -99,11 +106,16 @@ def handle_text_message(event):
             event.reply_token,
             message
         )
+    elif text =='SocialNetwork':
+        print("hi")
     else:
         line_bot_api.reply_message(
             event.reply_token, TextSendMessage(text=event.message.text))
-    
 
+@handler.add(PostbackEvent)
+def handle_postback(event):
+    data = event.postback.data
+    label = event.postback.label
 
 if __name__ == '__main__':
     app.run(host=config.HOST, port=config.PORT, debug=True)
