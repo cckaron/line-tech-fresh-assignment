@@ -1,0 +1,63 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "http://linecorp.com/"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "我的社群帳號",
+          "weight": "bold",
+          "size": "lg",
+          "align": "center"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "Github",
+            "uri": "https://github.com/cckaron"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "LinkedIn",
+            "uri": "https://www.linkedin.com/in/cckaron28/"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "Facebook",
+            "uri": "https://www.facebook.com/cckaron28/"
+          }
+        }
+      ],
+      "flex": 0
+    }
+  }
