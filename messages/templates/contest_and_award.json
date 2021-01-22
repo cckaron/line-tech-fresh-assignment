@@ -8,11 +8,7 @@
           "url": "https://i.imgur.com/GTdW6dB.jpg",
           "size": "full",
           "aspectRatio": "20:13",
-          "aspectMode": "cover",
-          "action": {
-            "type": "uri",
-            "uri": "http://linecorp.com/"
-          }
+          "aspectMode": "cover"
         },
         "body": {
           "type": "box",
@@ -97,8 +93,8 @@
               "height": "sm",
               "action": {
                 "type": "uri",
-                "label": "Award Statement",
-                "uri": "https://www.facebook.com/FJUIM/photos/a.2417911704989108/2417911818322430/"
+                "label": "Contest Website",
+                "uri": "http://iot.nchu.edu.tw/"
               }
             }
           ],
@@ -112,11 +108,7 @@
           "url": "https://i.imgur.com/4ib16CJ.jpg",
           "size": "full",
           "aspectRatio": "20:13",
-          "aspectMode": "fit",
-          "action": {
-            "type": "uri",
-            "uri": "http://linecorp.com/"
-          }
+          "aspectMode": "fit"
         },
         "body": {
           "type": "box",
@@ -156,7 +148,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "An digital learning platform for 1,000 users for FJU Bachelor’s Business Management Program using PHP Laravel",
+                      "text": "Won Finalist.Designed a combat robot usingMCUs, EV3-dev Linux, 3D Printerand controlled by TCP/IP Protocol withNative Android Application.",
                       "wrap": true,
                       "color": "#666666",
                       "size": "sm",
