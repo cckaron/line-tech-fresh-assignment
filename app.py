@@ -87,9 +87,9 @@ def callback():
 def handle_text_message(event):
     text = event.message.text
 
-    if text == 'Quick':
+    if text == 'Quick' or text == 'quick':
         text_message = TextSendMessage(
-            text='Hi, 我是Aaron, 感謝你的加入!\n點擊選單可以獲得我的更多資訊\n或是輸入 "keywords" 取得關鍵字列表',
+            text='Hi, 我是Aaron, 感謝你的加入!\n請點擊選單取得更多資訊\n輸入"Quick"可以再次開啟快速回覆列表',
             quick_reply=QuickReply(items=[
                 QuickReplyButton(action=MessageAction(
                     label='關於我', text='About me')),
@@ -117,10 +117,34 @@ def handle_text_message(event):
             event.reply_token,
             message
         )
-    elif text == 'side projects':
+    elif text == 'Side Projects':
         flexObj = flex("side_projects")
         message = FlexSendMessage(
             alt_text="side_projects", contents=flexObj.readFile())
+        line_bot_api.reply_message(
+            event.reply_token,
+            message
+        )
+    elif text == 'Contests and Awards':
+        flexObj = flex("contest_and_award")
+        message = FlexSendMessage(
+            alt_text="contest_and_award", contents=flexObj.readFile())
+        line_bot_api.reply_message(
+            event.reply_token,
+            message
+        )
+    elif text == 'Work Experience':
+        flexObj = flex("work_experience")
+        message = FlexSendMessage(
+            alt_text="work_experience", contents=flexObj.readFile())
+        line_bot_api.reply_message(
+            event.reply_token,
+            message
+        )
+    elif text == 'Skillsets':
+        flexObj = flex("skillsets")
+        message = FlexSendMessage(
+            alt_text="skillsets", contents=flexObj.readFile())
         line_bot_api.reply_message(
             event.reply_token,
             message
@@ -147,7 +171,7 @@ def handle_postback(event):
 def handle_join(event):
     print("follow")
     text_message = TextSendMessage(
-        text='Hi, 我是Aaron, 感謝你的加入!\n點擊選單可以獲得我的更多資訊\n或是輸入 "keywords" 取得關鍵字列表',
+        text='Hi, 我是Aaron, 感謝你的加入!\n請點擊選單取得更多資訊\n輸入"Quick"可以再次開啟快速回覆列表',
         quick_reply=QuickReply(items=[
             QuickReplyButton(action=MessageAction(
                 label='關於我', text='About me')),

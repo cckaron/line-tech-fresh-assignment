@@ -8,11 +8,7 @@
         "url": "https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.0-9/126139530_102390335043983_6352007368195389380_o.png?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=-_0VgegkDf8AX_7R2Y3&_nc_ht=scontent.ftpe7-1.fna&oh=d1796b5da37fa98e03705b1ef0c92b5d&oe=602EF911",
         "size": "full",
         "aspectRatio": "20:13",
-        "aspectMode": "cover",
-        "action": {
-          "type": "uri",
-          "uri": "http://linecorp.com/"
-        }
+        "aspectMode": "cover"
       },
       "body": {
         "type": "box",
@@ -132,11 +128,7 @@
         "url": "https://scontent.ftpe8-4.fna.fbcdn.net/v/t1.0-9/71853365_2669197879767649_9158612640224772096_n.jpg?_nc_cat=110&ccb=2&_nc_sid=174925&_nc_ohc=b_w9e6mmCdsAX8VvXiH&_nc_ht=scontent.ftpe8-4.fna&oh=6d0d8a6b66a0e00a6acd2bde640ac5ec&oe=602F4295",
         "size": "full",
         "aspectRatio": "20:13",
-        "aspectMode": "fit",
-        "action": {
-          "type": "uri",
-          "uri": "http://linecorp.com/"
-        }
+        "aspectMode": "fit"
       },
       "body": {
         "type": "box",
@@ -246,11 +238,7 @@
         "url": "https://scontent.ftpe8-4.fna.fbcdn.net/v/t31.0-8/21686761_1935701663122921_7747489882735554299_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=Z91w05TDe_cAX8MFjbi&_nc_ht=scontent.ftpe8-4.fna&oh=d8d1c0cf4d1ae3323b6effa81c436c21&oe=6030B70F",
         "size": "full",
         "aspectRatio": "20:13",
-        "aspectMode": "fit",
-        "action": {
-          "type": "uri",
-          "uri": "http://linecorp.com/"
-        }
+        "aspectMode": "fit"
       },
       "body": {
         "type": "box",
@@ -312,7 +300,7 @@
                   },
                   {
                     "type": "text",
-                    "text": "2018 Oct - 2018 Dec",
+                    "text": "2017 Oct - 2017 Dec",
                     "wrap": true,
                     "color": "#666666",
                     "size": "sm",

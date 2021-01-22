@@ -5,11 +5,7 @@
       "url": "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
       "size": "full",
       "aspectRatio": "20:13",
-      "aspectMode": "cover",
-      "action": {
-        "type": "uri",
-        "uri": "http://linecorp.com/"
-      }
+      "aspectMode": "cover"
     },
     "body": {
       "type": "box",
