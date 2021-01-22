@@ -1,0 +1,223 @@
+{
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://i.imgur.com/GTdW6dB.jpg",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "物聯網整合創新服務獎",
+              "weight": "bold",
+              "size": "lg"
+            },
+            {
+              "type": "text",
+              "text": "Team Lead and Developer",
+              "size": "sm",
+              "color": "#999999",
+              "margin": "md",
+              "flex": 0
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "lg",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Intro",
+                      "color": "#aaaaaa",
+                      "size": "sm",
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "Won 4th Place and was awarded Certificate of Academic Excellence from College of Management, FJU. \nPresented our work to 300+ IT vendors on 2019 International AIoT Show in Taipei Nangang Exhibition Center. \nDeveloped an IoT-based traffic optimization solution combining YOLO, SIP Camera and Unity 3D.",
+                      "wrap": true,
+                      "color": "#666666",
+                      "size": "sm",
+                      "flex": 5
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Period",
+                      "color": "#aaaaaa",
+                      "size": "sm",
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "2019 Jun - 2019 Oct",
+                      "wrap": true,
+                      "color": "#666666",
+                      "size": "sm",
+                      "flex": 5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "style": "link",
+              "height": "sm",
+              "action": {
+                "type": "uri",
+                "label": "Award Statement",
+                "uri": "https://www.facebook.com/FJUIM/photos/a.2417911704989108/2417911818322430"
+              }
+            }
+          ],
+          "flex": 0
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://i.imgur.com/4ib16CJ.jpg",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "fit",
+          "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "東京威力科創機器人大賽",
+              "weight": "bold",
+              "size": "lg"
+            },
+            {
+              "type": "text",
+              "text": "Contestant and Software Developer",
+              "size": "sm",
+              "color": "#999999",
+              "margin": "md",
+              "flex": 0
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "lg",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Intro",
+                      "color": "#aaaaaa",
+                      "size": "sm",
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "An digital learning platform for 1,000 users for FJU Bachelor’s Business Management Program using PHP Laravel",
+                      "wrap": true,
+                      "color": "#666666",
+                      "size": "sm",
+                      "flex": 5
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Period",
+                      "color": "#aaaaaa",
+                      "size": "sm",
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "2018 Jun - 2019 Dec",
+                      "wrap": true,
+                      "color": "#666666",
+                      "size": "sm",
+                      "flex": 5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "style": "link",
+              "height": "sm",
+              "action": {
+                "type": "uri",
+                "label": "Contest Website",
+                "uri": "http://teltwrobotcombat.rs-event.com.tw/a01.html#h4"
+              }
+            },
+            {
+              "type": "button",
+              "style": "link",
+              "height": "sm",
+              "action": {
+                "type": "uri",
+                "label": "Source Code",
+                "uri": "https://github.com/cckaron/venomIOT"
+              }
+            }
+          ],
+          "flex": 0
+        }
+      }
+    ]
+  }

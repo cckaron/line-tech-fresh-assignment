@@ -1,0 +1,201 @@
+{
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "micro",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Languages",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "md",
+              "gravity": "center"
+            }
+          ],
+          "backgroundColor": "#27ACB2",
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Chinese: Nature\nEnglish: TOEIC 855",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                }
+              ],
+              "flex": 1
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
+        },
+        "styles": {
+          "footer": {
+            "separator": false
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Programming",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "md",
+              "gravity": "center"
+            }
+          ],
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px",
+          "backgroundColor": "#FF6B6E"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Java: Proficient\nPython: Proficient\nPHP: Proficient\nDart: Intermediate\nJS: Intermediate",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                }
+              ],
+              "flex": 1
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
+        },
+        "styles": {
+          "footer": {
+            "separator": false
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Frameworks",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "md",
+              "gravity": "center"
+            }
+          ],
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px",
+          "backgroundColor": "#A17DF5"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Laravel: Proficient\nFlask: Proficient\nDjango: Proficient\nFlutter: Intermediate",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                }
+              ],
+              "flex": 1
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
+        },
+        "styles": {
+          "footer": {
+            "separator": false
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Tools",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "md",
+              "gravity": "center"
+            }
+          ],
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px",
+          "backgroundColor": "#27ACB2"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Git: Proficient\nAWS: Proficient\nLinux: Intermediate\nDesign Patterns: Intermediate",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                }
+              ],
+              "flex": 1
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
+        },
+        "styles": {
+          "footer": {
+            "separator": false
+          }
+        }
+      }
+    ]
+  }
