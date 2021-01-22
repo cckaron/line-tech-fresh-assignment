@@ -1,0 +1,357 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.0-9/126139530_102390335043983_6352007368195389380_o.png?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=-_0VgegkDf8AX_7R2Y3&_nc_ht=scontent.ftpe7-1.fna&oh=d1796b5da37fa98e03705b1ef0c92b5d&oe=602EF911",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "GoGet",
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "text",
+            "text": "Back-end Team Lead",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Intro",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "A side project which involved 40+ talents across consulting, banking and marketing industries, aimed to create the richest career information platform for youth",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Period",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "2021 Sep - Current",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "Our Website",
+              "uri": "http://letsgoget.info"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "Facebook",
+              "uri": "https://www.facebook.com/GoGetGoAndGetYourDreamJob"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "Instagram",
+              "uri": "https://www.instagram.com/goget_tw/"
+            }
+          }
+        ],
+        "flex": 0
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://scontent.ftpe8-4.fna.fbcdn.net/v/t1.0-9/71853365_2669197879767649_9158612640224772096_n.jpg?_nc_cat=110&ccb=2&_nc_sid=174925&_nc_ohc=b_w9e6mmCdsAX8VvXiH&_nc_ht=scontent.ftpe8-4.fna&oh=6d0d8a6b66a0e00a6acd2bde640ac5ec&oe=602F4295",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "fit",
+        "action": {
+          "type": "uri",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "輔仁大學 - 數位教學平台",
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "text",
+            "text": "Freelance - Full Stack Development",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Intro",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "An digital learning platform for 1,000 users for FJU Bachelor’s Business Management Program using PHP Laravel",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Period",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "2018 Sep - 2019 Jul",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "Production Site",
+              "uri": "http://www.bbm.fju.edu.tw/learning-record/signIn"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "Source Code",
+              "uri": "https://github.com/cckaron/learning-record-system-master"
+            }
+          }
+        ],
+        "flex": 0
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://scontent.ftpe8-4.fna.fbcdn.net/v/t31.0-8/21686761_1935701663122921_7747489882735554299_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=Z91w05TDe_cAX8MFjbi&_nc_ht=scontent.ftpe8-4.fna&oh=d8d1c0cf4d1ae3323b6effa81c436c21&oe=6030B70F",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "fit",
+        "action": {
+          "type": "uri",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "亞洲醫學生聯合會 - 學術網站",
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "text",
+            "text": "Freelance - Full Stack Development",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Intro",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "Promote international medical exchange by building academic thesis platform. \nCustomize user-friendly academic platform by cooperating with AMSA Taiwan’s management team",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Period",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "2018 Oct - 2018 Dec",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "Production Site",
+              "uri": "http://amsataiwan.com/"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "Facebook",
+              "uri": "https://www.facebook.com/amsataiwan/"
+            }
+          }
+        ],
+        "flex": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "關於我",
+          "weight": "bold",
+          "color": "#1DB446",
+          "size": "sm"
+        },
+        {
+          "type": "text",
+          "text": "高俊凱 Aaron",
+          "weight": "bold",
+          "size": "xxl",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "國立交通大學 資訊工程研究所 碩一",
+          "size": "xs",
+          "color": "#aaaaaa",
+          "wrap": true
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "人格特質",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "樂觀積極、行動力高",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "擅長",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "團隊合作、聆聽想法",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "興趣",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "Coding、健身、旅行",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xxl",
+              "contents": [
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#555555",
+                  "text": "核心價值"
+                },
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end",
+                  "text": "好奇心、持續學習"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "短期目標",
+                  "size": "sm",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "text": "加入Line後端團隊",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "長期目標",
+                  "size": "sm",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end",
+                  "text": "帶領專案開發"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "#Not only a coder",
+              "size": "xs",
+              "color": "#aaaaaa",
+              "flex": 0
+            }
+          ]
+        }
+      ]
+    },
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    }
+  }

@@ -101,11 +101,26 @@ def handle_text_message(event):
                 event.reply_token,
                 text_message
         )
-    elif text == 'Leaderships':
-        flexObj = flex("projects")
+    elif text == 'About me':
+        flexObj = flex("about_me")
         message = FlexSendMessage(
             alt_text="projects", contents=flexObj.readFile())
-        print(message)
+        line_bot_api.reply_message(
+            event.reply_token,
+            message
+        )
+    elif text == 'Leadership':
+        flexObj = flex("leadership")
+        message = FlexSendMessage(
+            alt_text="leadership", contents=flexObj.readFile())
+        line_bot_api.reply_message(
+            event.reply_token,
+            message
+        )
+    elif text == 'side projects':
+        flexObj = flex("side_projects")
+        message = FlexSendMessage(
+            alt_text="side_projects", contents=flexObj.readFile())
         line_bot_api.reply_message(
             event.reply_token,
             message
@@ -114,7 +129,6 @@ def handle_text_message(event):
         flexObj = flex("social_networks")
         message = FlexSendMessage(
             alt_text="social_networks", contents=flexObj.readFile())
-        print(message)
         line_bot_api.reply_message(
             event.reply_token,
             message
@@ -129,8 +143,9 @@ def handle_postback(event):
     data = event.postback.data
     label = event.postback.label
 
-@handler.add(JoinEvent)
+@handler.add(FollowEvent)
 def handle_join(event):
+    print("follow")
     text_message = TextSendMessage(
         text='Hi, 我是Aaron, 感謝你的加入!\n點擊選單可以獲得我的更多資訊\n或是輸入 "keywords" 取得關鍵字列表',
         quick_reply=QuickReply(items=[
@@ -139,6 +154,11 @@ def handle_join(event):
             QuickReplyButton(action=MessageAction(
                 label='我的社群帳號', text='Social Networks'))
     ]))
+
+    line_bot_api.reply_message(
+                event.reply_token,
+                text_message
+    )
 
 if __name__ == '__main__':
     app.run(host=config.HOST, port=config.PORT, debug=True)
